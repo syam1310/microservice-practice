@@ -20,6 +20,7 @@ public class CardsMapper {
         cards.setCardType(cardsDto.getCardType());
         cards.setMobileNumber(cardsDto.getMobileNumber());
         cards.setTotalLimit(cardsDto.getTotalLimit());
+
         cards.setAvailableAmount(cardsDto.getAvailableAmount());
         cards.setAmountUsed(cardsDto.getAmountUsed());
         return cards;
